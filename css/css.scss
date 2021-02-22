@@ -57,4 +57,40 @@
       }
     }
   }
+  .main-nav {
+    height: 40px;
+    background-color: #20bd9a;
+    ul {
+      > li {
+        float: left;
+        margin-right: 18px;
+        &.have-menu {
+          padding-right: 16px;
+          position: relative;
+          &::before {
+            content: "";
+            right: 0;
+            top: 18px;
+            // margin-top: -8px;
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 5px solid transparent;
+            border-top-color: white;
+            border-bottom: none;
+            transition: transform 0.4s ease 0s;
+            // background-color: gold;
+          }
+          &:hover::before {
+            transform: rotate(180deg);
+          }
+        }
+        a {
+          line-height: 40px;
+          color: white;
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }
