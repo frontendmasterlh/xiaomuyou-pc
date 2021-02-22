@@ -1,0 +1,60 @@
+.site-head {
+  height: 150px;
+  .topbar {
+    height: 32px;
+    line-height: 32px;
+    background-color: #2a2a2a;
+    .center-wrap {
+      .shortcut-links {
+        float: left;
+        > ul {
+          > li {
+            float: left;
+            margin-right: 18px;
+            font-size: 14px;
+            &.have-menu {
+              padding-right: 12px;
+              position: relative;
+              .arrow {
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                top: 50%;
+                margin-top: -6px;
+                right: 0;
+                transition: transform 0.2s ease 0s;
+                // background-color: gold;
+                b {
+                  position: absolute;
+                  left: 3px;
+                  top: 2px;
+                  width: 6px;
+                  height: 6px;
+                  background-color: white;
+                  transform: rotate(45deg);
+                }
+                i {
+                  position: absolute;
+                  left: 3px;
+                  top: 0.5px;
+                  width: 6px;
+                  height: 6px;
+                  transform: rotate(45deg);
+                  background-color: #2a2a2a;
+                }
+              }
+              &:hover {
+                .arrow {
+                  transform: rotate(180deg);
+                }
+              }
+            }
+          }
+        }
+      }
+      a {
+        color: white;
+      }
+    }
+  }
+}

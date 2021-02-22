@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "PingFangSCRegular";
+  src: url(../fonts/PingFangSCRegular.ttf) format("truetype");
+}
+body {
+  font-family: "PingFangSCRegular";
+}
+.clearfix {
+  overflow: hidden;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+/* 页面的版心 */
+.center-wrap {
+  width: 1152px;
+  margin: 0 auto;
+}
