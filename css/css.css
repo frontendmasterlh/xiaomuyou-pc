@@ -108,4 +108,42 @@
   color: white;
   font-size: 16px;
 }
+
+.site-head .header-con {
+  height: 36px;
+  padding: 21px 0;
+}
+
+.site-head .header-con h1 {
+  float: left;
+  font-size: 24px;
+  color: #20bd9a;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.site-head .header-con .soso-box {
+  float: left;
+  margin-left: 20px;
+  width: 405px;
+  padding-top: 2px;
+}
+
+.site-head .header-con .soso-box input {
+  float: left;
+  width: 361px;
+  height: 28px;
+  border: 1px solid #20bd9a;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.site-head .header-con .soso-box .btn {
+  float: left;
+  width: 32px;
+  height: 30px;
+  background-color: #20bd9a;
+}
 /*# sourceMappingURL=css.css.map */
