@@ -4,6 +4,7 @@
     height: 32px;
     line-height: 32px;
     background-color: #2a2a2a;
+    color: white;
     .center-wrap {
       .shortcut-links {
         float: left;
@@ -12,6 +13,9 @@
             float: left;
             margin-right: 18px;
             font-size: 14px;
+            a {
+              color: white;
+            }
             &.have-menu {
               padding-right: 12px;
               position: relative;
@@ -52,11 +56,25 @@
           }
         }
       }
-      a {
-        color: white;
+
+      .topbar-r {
+        float: right;
+        width: 225px;
+        a,
+        span {
+          margin-right: 11px;
+          font-size: 15px;
+        }
+        a:last-child {
+          margin-right: 0;
+        }
       }
     }
+    a {
+      color: white;
+    }
   }
+
   .main-nav {
     height: 40px;
     background-color: #20bd9a;
@@ -123,6 +141,11 @@
         width: 32px;
         height: 30px;
         background-color: #20bd9a;
+        color: white;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        border-radius: 0 4px 4px 0;
       }
     }
   }

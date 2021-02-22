@@ -6,6 +6,7 @@
   height: 32px;
   line-height: 32px;
   background-color: #2a2a2a;
+  color: white;
 }
 
 .site-head .topbar .center-wrap .shortcut-links {
@@ -16,6 +17,10 @@
   float: left;
   margin-right: 18px;
   font-size: 14px;
+}
+
+.site-head .topbar .center-wrap .shortcut-links > ul > li a {
+  color: white;
 }
 
 .site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu {
@@ -63,7 +68,22 @@
           transform: rotate(180deg);
 }
 
-.site-head .topbar .center-wrap a {
+.site-head .topbar .center-wrap .topbar-r {
+  float: right;
+  width: 225px;
+}
+
+.site-head .topbar .center-wrap .topbar-r a,
+.site-head .topbar .center-wrap .topbar-r span {
+  margin-right: 11px;
+  font-size: 15px;
+}
+
+.site-head .topbar .center-wrap .topbar-r a:last-child {
+  margin-right: 0;
+}
+
+.site-head .topbar a {
   color: white;
 }
 
@@ -145,5 +165,10 @@
   width: 32px;
   height: 30px;
   background-color: #20bd9a;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  border-radius: 0 4px 4px 0;
 }
 /*# sourceMappingURL=css.css.map */
