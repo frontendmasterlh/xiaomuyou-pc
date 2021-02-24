@@ -68,6 +68,48 @@
           transform: rotate(180deg);
 }
 
+.site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu:hover .menu {
+  display: block;
+}
+
+.site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu .menu {
+  position: absolute;
+  background-color: white;
+  z-index: 9999;
+  top: 30px;
+  left: 0;
+  padding: 10px;
+  display: none;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu .menu .menu-list li {
+  height: 20px;
+  line-height: 20px;
+}
+
+.site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu .menu .menu-list a {
+  font-size: 12px;
+  color: #1c1f21;
+}
+
+.site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu .menu .menu-list a:hover {
+  color: gold;
+}
+
+.site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu .sqmenu {
+  width: 110px;
+}
+
+.site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu .scmenu {
+  width: 80px;
+}
+
+.site-head .topbar .center-wrap .shortcut-links > ul > li.have-menu .jdmsmenu {
+  width: 80px;
+}
+
 .site-head .topbar .center-wrap .topbar-r {
   float: right;
   width: 225px;
@@ -121,6 +163,47 @@
 .site-head .main-nav ul > li.have-menu:hover::before {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.site-head .main-nav ul > li.have-menu:hover .menu {
+  display: block;
+}
+
+.site-head .main-nav ul > li.have-menu .menu {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: none;
+}
+
+.site-head .main-nav ul > li.have-menu .menu dl dd a {
+  color: #1c1f21;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.site-head .main-nav ul > li.have-menu .menu dl dd a:hover {
+  color: orange;
+}
+
+.site-head .main-nav ul > li.have-menu .jjzyxmenu {
+  width: 150px;
+}
+
+.site-head .main-nav ul > li.have-menu .gtymenu {
+  width: 90px;
+}
+
+.site-head .main-nav ul > li.have-menu .ddwlmenu {
+  width: 190px;
+}
+
+.site-head .main-nav ul > li.have-menu .sdlymenu {
+  width: 160px;
 }
 
 .site-head .main-nav ul > li a {

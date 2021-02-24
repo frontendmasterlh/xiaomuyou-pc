@@ -51,6 +51,48 @@
                 .arrow {
                   transform: rotate(180deg);
                 }
+                .menu {
+                  display: block;
+                }
+              }
+              .menu {
+                position: absolute;
+
+                background-color: white;
+                z-index: 9999;
+                top: 30px;
+                left: 0;
+                padding: 10px;
+                display: none;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                // padding-top: 10px;
+
+                // .menu-inner {
+                //   background-color: gold;
+                //   height: 400px;
+                // }
+                .menu-list {
+                  li {
+                    height: 20px;
+                    line-height: 20px;
+                  }
+                  a {
+                    font-size: 12px;
+                    color: #1c1f21;
+                    &:hover {
+                      color: gold;
+                    }
+                  }
+                }
+              }
+              .sqmenu {
+                width: 110px;
+              }
+              .scmenu {
+                width: 80px;
+              }
+              .jdmsmenu {
+                width: 80px;
               }
             }
           }
@@ -101,6 +143,45 @@
           }
           &:hover::before {
             transform: rotate(180deg);
+          }
+          &:hover {
+            .menu {
+              display: block;
+            }
+          }
+          .menu {
+            position: absolute;
+            top: 35px;
+            left: 0;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            display: none;
+            dl {
+              dd {
+                a {
+                  color: #1c1f21;
+                  line-height: 20px;
+                  font-size: 12px;
+                  &:hover {
+                    color: orange;
+                  }
+                }
+              }
+            }
+            // z-index: 9999;
+          }
+          .jjzyxmenu {
+            width: 150px;
+          }
+          .gtymenu {
+            width: 90px;
+          }
+          .ddwlmenu {
+            width: 190px;
+          }
+          .sdlymenu {
+            width: 160px;
           }
         }
         a {
