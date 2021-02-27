@@ -573,45 +573,46 @@
 
 .content-part .more-grid ul {
   margin-top: 112px;
-  padding-left: 42px;
+  padding-left: 40px;
 }
 
 .content-part .more-grid ul li {
   float: left;
   border-right: 1px solid white;
   color: white;
-  padding: 0 6px;
-  height: 16px;
-  line-height: 16px;
-  font-size: 15px;
+  padding: 0 9px;
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
 }
 
 .content-part .more-grid ul li:last-child {
   border-right: none;
 }
 
-.jjzyx {
+.common-style {
   height: 698px;
   padding-top: 40px;
 }
 
-.jjzyx .hd h2 {
+.common-style .hd h2 {
   float: left;
 }
 
-.jjzyx .bd {
+.common-style .bd {
   padding-top: 32px;
 }
 
-.jjzyx .bd > ul > li {
+.common-style .bd > ul > li {
   float: left;
   margin-right: 32px;
   margin-bottom: 32px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+  background-color: white;
 }
 
-.jjzyx .bd > ul > li .tag {
+.common-style .bd > ul > li .tag {
   position: absolute;
   width: 74px;
   height: 40px;
@@ -625,14 +626,14 @@
   z-index: 9999;
 }
 
-.jjzyx .bd > ul > li.big-grid {
+.common-style .bd > ul > li.big-grid {
   position: relative;
   width: 560px;
   height: 270px;
   background-color: #eee;
 }
 
-.jjzyx .bd > ul > li.big-grid .info {
+.common-style .bd > ul > li.big-grid .info {
   position: absolute;
   width: 560px;
   height: 103px;
@@ -646,32 +647,32 @@
   line-height: 26px;
 }
 
-.jjzyx .bd > ul > li.pro-grid {
+.common-style .bd > ul > li.pro-grid {
   width: 264px;
   height: 270px;
 }
 
-.jjzyx .bd > ul > li.pro-grid .picbox {
+.common-style .bd > ul > li.pro-grid .picbox {
   position: relative;
   height: 184px;
 }
 
-.jjzyx .bd > ul > li.pro-grid .picbox .tag {
+.common-style .bd > ul > li.pro-grid .picbox .tag {
   bottom: 0;
 }
 
-.jjzyx .bd > ul > li.pro-grid .wordbox {
+.common-style .bd > ul > li.pro-grid .wordbox {
   padding: 14px;
   font-size: 14px;
   color: #1c1f21;
   line-height: 26px;
 }
 
-.jjzyx .bd > ul > li:nth-child(3), .jjzyx .bd > ul > li:nth-child(7) {
+.common-style .bd > ul > li:nth-child(3), .common-style .bd > ul > li:nth-child(7) {
   margin-right: 0;
 }
 
-.jjzyx .bd > ul > li:hover {
+.common-style .bd > ul > li:hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -837,5 +838,42 @@
 .tsddty .center-wrap .bd ul li:hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.zsjsdlx {
+  height: 738px;
+  background-color: #f7f7f7;
+}
+
+.zsjsdlx .hd em {
+  float: left;
+  width: 307px;
+}
+
+.zsjsdlx .hd nav {
+  float: right;
+  width: 85px;
+}
+
+.zsjsdlx .bd .more-grid {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#bd5ee8), color-stop(98%, #832abb));
+  background-image: linear-gradient(180deg, #bd5ee8 0%, #832abb 98%);
+}
+
+.zsjsdlx .bd .more-grid ul {
+  padding-left: 41px;
+}
+
+.gtbzzy .hd nav {
+  width: 157px;
+}
+
+.gtbzzy .bd .more-grid {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#41d8e9), color-stop(98%, #3685ea));
+  background-image: linear-gradient(180deg, #41d8e9 0%, #3685ea 98%);
+}
+
+.gtbzzy .bd .more-grid ul {
+  padding-left: 67px;
 }
 /*# sourceMappingURL=css.css.map */

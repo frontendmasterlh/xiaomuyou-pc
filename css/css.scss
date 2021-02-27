@@ -514,15 +514,15 @@
   }
   ul {
     margin-top: 112px;
-    padding-left: 42px;
+    padding-left: 40px;
     li {
       float: left;
       border-right: 1px solid white;
       color: white;
-      padding: 0 6px;
-      height: 16px;
-      line-height: 16px;
-      font-size: 15px;
+      padding: 0 9px;
+      height: 14px;
+      line-height: 14px;
+      font-size: 14px;
       &:last-child {
         border-right: none;
       }
@@ -530,7 +530,7 @@
   }
 }
 
-.jjzyx {
+.common-style {
   height: 698px;
   padding-top: 40px;
   .hd {
@@ -546,6 +546,7 @@
         margin-right: 32px;
         margin-bottom: 32px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+        background-color: white;
         .tag {
           position: absolute;
           width: 74px;
@@ -738,6 +739,45 @@
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
           }
         }
+      }
+    }
+  }
+}
+
+.zsjsdlx {
+  height: 738px;
+  background-color: #f7f7f7;
+  .hd {
+    em {
+      float: left;
+      width: 307px;
+    }
+    nav {
+      float: right;
+      width: 85px;
+    }
+  }
+  .bd {
+    .more-grid {
+      background-image: linear-gradient(180deg, #bd5ee8 0%, #832abb 98%);
+      ul {
+        padding-left: 41px;
+      }
+    }
+  }
+}
+
+.gtbzzy {
+  .hd {
+    nav {
+      width: 157px;
+    }
+  }
+  .bd {
+    .more-grid {
+      background-image: linear-gradient(180deg, #41d8e9 0%, #3685ea 98%);
+      ul {
+        padding-left: 67px;
       }
     }
   }
