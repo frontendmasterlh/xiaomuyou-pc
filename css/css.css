@@ -456,4 +456,52 @@
 .hot-ads ul li:last-child {
   margin-right: 0;
 }
+
+.xxsw {
+  padding-top: 40px;
+  height: 698px;
+  background-color: #f7f7f7;
+}
+
+.xxsw .hd {
+  margin-bottom: 32px;
+}
+
+.xxsw .hd h2 {
+  float: left;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.xxsw .hd em {
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  color: #1c1f21;
+}
+
+.xxsw ul li {
+  float: left;
+  width: 264px;
+  height: 270px;
+  margin-right: 32px;
+  background: white;
+  margin-bottom: 32px;
+}
+
+.xxsw ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.xxsw ul li .wordbox {
+  padding: 15px;
+  color: #1c1f21;
+  font-size: 14px;
+}
+
+.xxsw ul li:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 /*# sourceMappingURL=css.css.map */

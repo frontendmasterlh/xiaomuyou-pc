@@ -415,3 +415,45 @@
     }
   }
 }
+
+.xxsw {
+  padding-top: 40px;
+  height: 698px;
+  background-color: #f7f7f7;
+  .hd {
+    margin-bottom: 32px;
+    h2 {
+      float: left;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    em {
+      float: left;
+      position: relative;
+      top: 20px;
+      left: 10px;
+      color: #1c1f21;
+    }
+  }
+  ul {
+    li {
+      float: left;
+      width: 264px;
+      height: 270px;
+      margin-right: 32px;
+      background: white;
+      margin-bottom: 32px;
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+      .wordbox {
+        padding: 15px;
+        color: #1c1f21;
+        font-size: 14px;
+      }
+      &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
