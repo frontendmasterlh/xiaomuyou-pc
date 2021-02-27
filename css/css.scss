@@ -460,14 +460,8 @@
   left: 10px;
   color: #1c1f21;
 }
-
-.jjzyx {
-  height: 698px;
-  padding-top: 40px;
+.content-part {
   .hd {
-    h2 {
-      float: left;
-    }
     nav {
       float: right;
       width: 546px;
@@ -492,6 +486,56 @@
           }
         }
       }
+    }
+  }
+}
+.content-part .more-grid {
+  position: relative;
+  width: 264px;
+  height: 270px;
+  background-image: linear-gradient(180deg, #34e3bc 0%, #15af7a 98%);
+  padding-top: 46px;
+  box-sizing: border-box;
+  p {
+    text-align: center;
+    color: white;
+    line-height: 24px;
+    font-size: 15px;
+  }
+  .iconfont {
+    position: absolute;
+    font-size: 48px;
+    color: white;
+    width: 48px;
+    height: 48px;
+    left: 50%;
+    top: 118px;
+    margin-left: -24px;
+  }
+  ul {
+    margin-top: 112px;
+    padding-left: 42px;
+    li {
+      float: left;
+      border-right: 1px solid white;
+      color: white;
+      padding: 0 6px;
+      height: 16px;
+      line-height: 16px;
+      font-size: 15px;
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}
+
+.jjzyx {
+  height: 698px;
+  padding-top: 40px;
+  .hd {
+    h2 {
+      float: left;
     }
   }
   .bd {
@@ -551,46 +595,7 @@
             line-height: 26px;
           }
         }
-        &.more-grid {
-          position: relative;
-          width: 264px;
-          height: 270px;
-          background-image: linear-gradient(180deg, #34e3bc 0%, #15af7a 98%);
-          padding-top: 46px;
-          box-sizing: border-box;
-          p {
-            text-align: center;
-            color: white;
-            line-height: 24px;
-            font-size: 15px;
-          }
-          .iconfont {
-            position: absolute;
-            font-size: 48px;
-            color: white;
-            width: 48px;
-            height: 48px;
-            left: 50%;
-            top: 118px;
-            margin-left: -24px;
-          }
-          ul {
-            margin-top: 112px;
-            padding-left: 42px;
-            li {
-              float: left;
-              border-right: 1px solid white;
-              color: white;
-              padding: 0 6px;
-              height: 16px;
-              line-height: 16px;
-              font-size: 15px;
-              &:last-child {
-                border-right: none;
-              }
-            }
-          }
-        }
+
         &:nth-child(3),
         &:nth-child(7) {
           margin-right: 0;
@@ -598,6 +603,96 @@
         &:hover {
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
+      }
+    }
+  }
+}
+
+.ddwl {
+  padding-top: 40px;
+  height: 546px;
+  background-color: #f7f7f7;
+  .hd {
+    h2 {
+      float: left;
+    }
+    nav {
+      width: 349px;
+    }
+  }
+  .bd {
+    padding-top: 32px;
+    .col {
+      float: left;
+      width: 364px;
+      height: 480px;
+      // background-color: orange;
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
+      .bigpicbox {
+        position: relative;
+        width: 364px;
+        height: 270px;
+        margin-bottom: 30px;
+        .info {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 364px;
+          height: 104px;
+          background-color: rgba(0, 0, 0, 0.53);
+          padding: 21px 17px 0;
+          box-sizing: border-box;
+          color: white;
+          font-size: 14px;
+          .bottom {
+            padding-top: 6px;
+            .tag {
+              float: left;
+            }
+            .price {
+              float: right;
+              strong {
+                color: #36dfba;
+              }
+            }
+          }
+        }
+      }
+      .grid {
+        width: 364px;
+        height: 120px;
+        margin-bottom: 30px;
+        // background-color: red;
+        .picbox {
+          width: 120px;
+          height: 120px;
+          float: left;
+        }
+        .wordbox {
+          float: left;
+          width: 244px;
+          height: 120px;
+          padding: 26px 18px 0;
+          box-sizing: border-box;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+          font-size: 14px;
+          color: #000;
+        }
+      }
+      .more-grid {
+        width: 364px;
+        background-image: linear-gradient(180deg, #ff6374 1%, #ff7368 98%);
+        ul {
+          padding-left: 19px;
+        }
+      }
+      .grid:hover,
+      .bigpicbox:hover,
+      .more-grid:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
       }
     }
   }
