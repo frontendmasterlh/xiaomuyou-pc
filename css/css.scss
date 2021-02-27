@@ -697,3 +697,48 @@
     }
   }
 }
+
+.tsddty {
+  height: 456px;
+  .center-wrap {
+    padding-top: 40px;
+    h2 {
+      text-align: center;
+    }
+    .bd {
+      padding-top: 32px;
+      ul {
+        li {
+          float: left;
+          width: 264px;
+          height: 290px;
+          margin-right: 32px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+          &:last-child {
+            margin-right: 0;
+          }
+          .wordbox {
+            padding: 16px 9px 0;
+            .proname {
+              font-weight: bold;
+              font-size: 16px;
+              color: #000000;
+              height: 48px;
+            }
+            .score {
+              font-size: 13px;
+              color: #fa6400;
+            }
+            .comment {
+              font-size: 13px;
+              color: #000000;
+            }
+          }
+          &:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+}
