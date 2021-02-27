@@ -424,15 +424,6 @@
     margin-bottom: 32px;
     h2 {
       float: left;
-      font-size: 36px;
-      font-weight: bold;
-    }
-    em {
-      float: left;
-      position: relative;
-      top: 20px;
-      left: 10px;
-      color: #1c1f21;
     }
   }
   ul {
@@ -453,6 +444,160 @@
       }
       &:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
+.content-part h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1c1f21;
+}
+.content-part em {
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  color: #1c1f21;
+}
+
+.jjzyx {
+  height: 698px;
+  padding-top: 40px;
+  .hd {
+    h2 {
+      float: left;
+    }
+    nav {
+      float: right;
+      width: 546px;
+      ul {
+        padding-top: 16px;
+        li {
+          float: left;
+          margin-right: 16px;
+          font-size: 14px;
+          &:last-child {
+            margin-right: 0;
+          }
+          a {
+            color: rgba(0, 0, 0, 0.85);
+          }
+          &.current {
+            border-bottom: 4px solid #20bd9a;
+            padding-bottom: 4px;
+            a {
+              color: #20bd9a;
+            }
+          }
+        }
+      }
+    }
+  }
+  .bd {
+    padding-top: 32px;
+    > ul {
+      > li {
+        float: left;
+        margin-right: 32px;
+        margin-bottom: 32px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+        .tag {
+          position: absolute;
+          width: 74px;
+          height: 40px;
+          color: white;
+          background-color: rgba(0, 0, 0, 0.55);
+          bottom: 103px;
+          left: 0;
+          text-align: center;
+          line-height: 40px;
+          /* 图片一触碰，就会有transform变形，那么此时会神奇的盖住tag，所以为了防止盖住，我们应该设置z-index属性值 */
+          z-index: 9999;
+        }
+        &.big-grid {
+          position: relative;
+          width: 560px;
+          height: 270px;
+          background-color: #eee;
+          .info {
+            position: absolute;
+            width: 560px;
+            height: 103px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.55);
+            bottom: 0;
+            left: 0;
+            padding: 30px 26px;
+            box-sizing: border-box;
+            line-height: 26px;
+          }
+        }
+        &.pro-grid {
+          width: 264px;
+          height: 270px;
+          // background-color: rgb(45, 15, 216);
+          .picbox {
+            position: relative;
+            height: 184px;
+            .tag {
+              bottom: 0;
+            }
+          }
+          .wordbox {
+            padding: 14px;
+            font-size: 14px;
+            color: #1c1f21;
+            line-height: 26px;
+          }
+        }
+        &.more-grid {
+          position: relative;
+          width: 264px;
+          height: 270px;
+          background-image: linear-gradient(180deg, #34e3bc 0%, #15af7a 98%);
+          padding-top: 46px;
+          box-sizing: border-box;
+          p {
+            text-align: center;
+            color: white;
+            line-height: 24px;
+            font-size: 15px;
+          }
+          .iconfont {
+            position: absolute;
+            font-size: 48px;
+            color: white;
+            width: 48px;
+            height: 48px;
+            left: 50%;
+            top: 118px;
+            margin-left: -24px;
+          }
+          ul {
+            margin-top: 112px;
+            padding-left: 42px;
+            li {
+              float: left;
+              border-right: 1px solid white;
+              color: white;
+              padding: 0 6px;
+              height: 16px;
+              line-height: 16px;
+              font-size: 15px;
+              &:last-child {
+                border-right: none;
+              }
+            }
+          }
+        }
+        &:nth-child(3),
+        &:nth-child(7) {
+          margin-right: 0;
+        }
+        &:hover {
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
       }
     }
   }

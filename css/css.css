@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .site-head {
   min-width: 1152px;
   height: 150px;
@@ -469,16 +470,6 @@
 
 .xxsw .hd h2 {
   float: left;
-  font-size: 36px;
-  font-weight: bold;
-}
-
-.xxsw .hd em {
-  float: left;
-  position: relative;
-  top: 20px;
-  left: 10px;
-  color: #1c1f21;
 }
 
 .xxsw ul li {
@@ -501,6 +492,186 @@
 }
 
 .xxsw ul li:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content-part h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1c1f21;
+}
+
+.content-part em {
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  color: #1c1f21;
+}
+
+.jjzyx {
+  height: 698px;
+  padding-top: 40px;
+}
+
+.jjzyx .hd h2 {
+  float: left;
+}
+
+.jjzyx .hd nav {
+  float: right;
+  width: 546px;
+}
+
+.jjzyx .hd nav ul {
+  padding-top: 16px;
+}
+
+.jjzyx .hd nav ul li {
+  float: left;
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+.jjzyx .hd nav ul li:last-child {
+  margin-right: 0;
+}
+
+.jjzyx .hd nav ul li a {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.jjzyx .hd nav ul li.current {
+  border-bottom: 4px solid #20bd9a;
+  padding-bottom: 4px;
+}
+
+.jjzyx .hd nav ul li.current a {
+  color: #20bd9a;
+}
+
+.jjzyx .bd {
+  padding-top: 32px;
+}
+
+.jjzyx .bd > ul > li {
+  float: left;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.jjzyx .bd > ul > li .tag {
+  position: absolute;
+  width: 74px;
+  height: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 103px;
+  left: 0;
+  text-align: center;
+  line-height: 40px;
+  /* 图片一触碰，就会有transform变形，那么此时会神奇的盖住tag，所以为了防止盖住，我们应该设置z-index属性值 */
+  z-index: 9999;
+}
+
+.jjzyx .bd > ul > li.big-grid {
+  position: relative;
+  width: 560px;
+  height: 270px;
+  background-color: #eee;
+}
+
+.jjzyx .bd > ul > li.big-grid .info {
+  position: absolute;
+  width: 560px;
+  height: 103px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 0;
+  left: 0;
+  padding: 30px 26px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 26px;
+}
+
+.jjzyx .bd > ul > li.pro-grid {
+  width: 264px;
+  height: 270px;
+}
+
+.jjzyx .bd > ul > li.pro-grid .picbox {
+  position: relative;
+  height: 184px;
+}
+
+.jjzyx .bd > ul > li.pro-grid .picbox .tag {
+  bottom: 0;
+}
+
+.jjzyx .bd > ul > li.pro-grid .wordbox {
+  padding: 14px;
+  font-size: 14px;
+  color: #1c1f21;
+  line-height: 26px;
+}
+
+.jjzyx .bd > ul > li.more-grid {
+  position: relative;
+  width: 264px;
+  height: 270px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34e3bc), color-stop(98%, #15af7a));
+  background-image: linear-gradient(180deg, #34e3bc 0%, #15af7a 98%);
+  padding-top: 46px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.jjzyx .bd > ul > li.more-grid p {
+  text-align: center;
+  color: white;
+  line-height: 24px;
+  font-size: 15px;
+}
+
+.jjzyx .bd > ul > li.more-grid .iconfont {
+  position: absolute;
+  font-size: 48px;
+  color: white;
+  width: 48px;
+  height: 48px;
+  left: 50%;
+  top: 118px;
+  margin-left: -24px;
+}
+
+.jjzyx .bd > ul > li.more-grid ul {
+  margin-top: 112px;
+  padding-left: 42px;
+}
+
+.jjzyx .bd > ul > li.more-grid ul li {
+  float: left;
+  border-right: 1px solid white;
+  color: white;
+  padding: 0 6px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 15px;
+}
+
+.jjzyx .bd > ul > li.more-grid ul li:last-child {
+  border-right: none;
+}
+
+.jjzyx .bd > ul > li:nth-child(3), .jjzyx .bd > ul > li:nth-child(7) {
+  margin-right: 0;
+}
+
+.jjzyx .bd > ul > li:hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
