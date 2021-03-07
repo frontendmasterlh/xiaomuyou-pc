@@ -236,13 +236,51 @@
 
 .banner {
   position: relative;
+  overflow: hidden;
+  .carousel_list {
+    overflow: hidden;
+    width: 600%;
 
-  img {
-    width: 100%;
-    min-width: 1152px;
-    // 图片可能和盒子底部产生缝隙,此时可以使用一个小技巧
-    // 添加之后，就没有缝隙了
-    vertical-align: middle;
+    // translateX中的百分数表示相对于它本身宽度的多少倍，使用相对定位的left属性设置会非常复杂，不好控制
+    // transform: translateX(-16.666%);
+    transition: transform 0.5s ease 0s;
+    li {
+      float: left;
+      width: 16.66%;
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+  }
+  .circles {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -80px;
+    width: 160px;
+    height: 20px;
+    z-index: 9999;
+    // background-color: rgb(29, 214, 174);
+    li {
+      float: left;
+      width: 20px;
+      height: 20px;
+      background-color: rgb(29, 214, 174);
+      margin-right: 10px;
+      border-radius: 10px;
+      transition: all 0.5s ease-in-out 0s;
+
+      // 鼠标指针变为小手
+      cursor: pointer;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.current {
+        width: 40px;
+        background-color: #20bd9a;
+      }
+    }
   }
   .center-wrap {
     // 只要有压盖，第一时间就要想到绝对定位
@@ -379,7 +417,7 @@
           padding: 16px;
           box-sizing: border-box;
           &.current {
-            display: block;
+            // display: block;
           }
           a {
             color: white;

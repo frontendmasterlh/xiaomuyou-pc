@@ -260,12 +260,57 @@
 
 .banner {
   position: relative;
+  overflow: hidden;
 }
 
-.banner img {
+.banner .carousel_list {
+  overflow: hidden;
+  width: 600%;
+  -webkit-transition: -webkit-transform 0.5s ease 0s;
+  transition: -webkit-transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+}
+
+.banner .carousel_list li {
+  float: left;
+  width: 16.66%;
+}
+
+.banner .carousel_list li img {
   width: 100%;
-  min-width: 1152px;
   vertical-align: middle;
+}
+
+.banner .circles {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -80px;
+  width: 160px;
+  height: 20px;
+  z-index: 9999;
+}
+
+.banner .circles li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: #1dd6ae;
+  margin-right: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.banner .circles li:last-child {
+  margin-right: 0;
+}
+
+.banner .circles li.current {
+  width: 40px;
+  background-color: #20bd9a;
 }
 
 .banner .center-wrap {
@@ -419,10 +464,6 @@
   padding: 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.banner .center-wrap .banner-nav .menus-box .menu.current {
-  display: block;
 }
 
 .banner .center-wrap .banner-nav .menus-box .menu a {
